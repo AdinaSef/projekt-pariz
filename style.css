@@ -1,6 +1,21 @@
 html { box-sizing: border-box; }
 *, ::before, ::after { box-sizing: inherit; }
 
-body {
+body {line-height: 1.5;
 
 }
+h1 {font-size: 48px;
+text-align: center;
+font-family: Playfair Display;}
+
+
+h2{font-size: 32px;
+font-family: Playfair Display;}
+
+h3 {font-size: 24px;
+color: #dc6aa1;
+}
+
+.pariz {width: 300px;
+    border-radius: 50%;
+    }
