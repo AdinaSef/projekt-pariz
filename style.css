@@ -1,34 +1,106 @@
 html { box-sizing: border-box; }
 *, ::before, ::after { box-sizing: inherit; }
 
-body {line-height: 1.5;
-
-}
-h1 {font-size: 48px;
-text-align: center;
-font-family: Playfair Display;}
 
 
-h2{font-size: 32px;
-font-family: Playfair Display;}
-
-h3 {font-size: 24px;
-color: #dc6aa1;
-}
-
-.pariz {
-    width: 300px;
-    border-radius: 50%;
-    margin: 0 auto;
+body {
+    background-color: #cde4f9;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 20px;
+    line-height: 1.4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+    line-height: 1.2;
+  }
+  
+  h1 {
+    font-size: 48px;
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  h2 {
+    font-size: 32px;
+    margin-top: 30px;
+  }
+  
+  h3 {
+    font-size: 24px;
+    color: #dc6aa1;
+    margin-top: 48px;
+  }
+  
+  .autor {
+    text-align: center;
+    color: #dc6aa1;
+    margin-bottom: 20px;
+  }
+  
+  .perex {
+    font-size: 24px;
+    color: #808080;
+    text-align: center;
+    margin: 20px auto;
+    max-width: 700px;
+  }
+  
+  section {
+    background-color: #ffffff;
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 30px 50px;
+    border-radius: 12px;
+    overflow: hidden;
+  }
+  
+  .uvodni-obrazek {
     display: block;
-    }
-
-
-.eiffelovka {
+    margin: 0 auto;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+  }
+  
+  .eiffelovka,
+  .louvre {
+    float: right;
     width: 300px;
     height: 225px;
+    margin: 20px 20px 0 20px;
     border-radius: 8px;
-    float: right;
-    margin: 0px 25px 25px 25px;
-
-}
+  }
+  
+  .oblouk,
+  .montmartre {
+    float: left;
+    width: 300px;
+    height: 225px;
+    margin: 0 20px 20px 20px;
+    border-radius: 8px;
+    }
+  
+  .velky-obrazek {
+    width: 100%;
+    margin: 20px 0;
+    border-radius: 8px;
+    
+  }
+  
+  @font-face {
+    font-family: 'Playfair Display';
+    src: url('fonts/PlayfairDisplay/PlayfairDisplay-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Source Sans 3';
+    src: url('fonts/SourceSans3/SourceSans3-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+  
